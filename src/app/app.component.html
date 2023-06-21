@@ -3,7 +3,19 @@
     <h3>Hola mi nombre es {{getSuma(2,2)}}</h3>
     <br>
     <input type="text" class="form-control" [placeholder]="textPlaceholder" [disabled]="deshabilitado">
-    <br>
-    <img [src]="img" alt="" width="400px" height="400px">
+    <br>    
+  </div>
+  <img [src]="img" alt="" width="400px" height="400px">
+
+  <div class="container">
+    <h3>{{texto}}</h3>
+    <button class="btn btn-primary" (click)="cambiarTexto()">Haz click</button>
+  </div>
+
+  <div class="container">
+    <h3>{{texto}}</h3>
+    <input type="text" class="form-control" [(ngModel)]="texto2">
+    <h3>{{texto2}}</h3>
   </div>
 </div>
+<app-estudiantes></app-estudiantes>
