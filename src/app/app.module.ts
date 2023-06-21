@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { EstudiantesComponent } from './estudiantes/estudiantes.component';
+import { NabvarComponent } from './components/nabvar/nabvar.component';
+import { TareasComponent } from './components/tareas/tareas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EstudiantesComponent
+    NabvarComponent,
+    TareasComponent,
   ],
   imports: [
     BrowserModule,
